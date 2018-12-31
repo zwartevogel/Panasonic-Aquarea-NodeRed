@@ -29,3 +29,7 @@ Install:
 
 In Node-red:
 - adjust the IDX values in the Node-Red function 'Convert JSON to domoticz mqtt msg' to the IDX values you just created.
+- open function 'Setup global variables and settings' and fill the username and password (use the steps below).
+
+
+<img src="how to get password.png" />
