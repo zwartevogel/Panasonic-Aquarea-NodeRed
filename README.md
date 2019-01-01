@@ -8,14 +8,15 @@ Prerequisite:
 
 
 
-Install:
+Installation instructions:
 - import the 'aquarea cloud.nodered' file in Node-Red
 
-- Execute the following commands on the command line:
+- Execute the following commands on the command line of your linux device where Node-Red is running:
   - touch /tmp/cookie.txt
   - chmod 777 /tmp/cookie.txt
+  In this file the cookies are stored which are used in the api calls. 
 
-- Create the following dummy sensors in Domoticz:
+- Create the following dummy sensors in Domoticz and write down the IDX values:
   Temperature:
   - In (aanvoer)
   - Out (retour)
