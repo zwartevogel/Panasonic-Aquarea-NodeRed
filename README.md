@@ -9,8 +9,6 @@ Prerequisite:
 
 
 Installation instructions:
-- import the 'aquarea cloud.nodered' file in Node-Red
-
 - Execute the following commands on the command line of your linux device where Node-Red is running:
   - touch /tmp/cookie.txt
   - chmod 777 /tmp/cookie.txt
@@ -18,8 +16,8 @@ Installation instructions:
 
 - Create the following dummy sensors in Domoticz and write down the IDX values:
   Temperature:
-  - In (aanvoer)
-  - Out (retour)
+  - Out (aanvoer)
+  - In (retour)
   - Outdoor (buitentemp)
   Percentage:
   - Pumpspeed (pompsnelheid)
@@ -29,8 +27,8 @@ Installation instructions:
   - working hours (bedrijfstijd)
 
 In Node-red:
+- import the 'aquarea cloud.nodered' file 
 - adjust the IDX values in the Node-Red function 'Convert JSON to domoticz mqtt msg' to the IDX values you just created.
 - open function 'Setup global variables and settings' and fill the username and password (use the steps below).
-
 
 <img src="how to get password.png" />
