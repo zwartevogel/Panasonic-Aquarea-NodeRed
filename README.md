@@ -2,7 +2,7 @@
 
 Prerequisite:
 - Domoticz with mqtt setup
-- node-red with mosquitto
+- node-red with mosquitto (with https://flows.nodered.org/node/node-red-contrib-influxdb installed)
 - Panasonic Aquarea with CZ-TAW1 
 - Panasonic service cloud account
 
