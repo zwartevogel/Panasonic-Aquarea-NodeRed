@@ -25,10 +25,15 @@ Installation instructions:
   Counter:
   - startstops 
   - working hours (bedrijfstijd)
+  
+- Create the following switches:
+  - On Off switch (switch heatpump on/off)
+  - Selector switch (to set the silent mode)
+  - Thermostat Setpoint (to set the heatpump setpoint)
 
 In Node-red:
 - import the 'aquarea cloud.nodered' file 
-- adjust the IDX values in the Node-Red function 'Convert JSON to domoticz mqtt msg' to the IDX values you just created.
+- adjust the IDX values in the Node-Red function 'Convert JSON to domoticz mqtt msg' and 'check OnOff/TargetTemp/SilentMode' to the IDX values you just created.
 - open function 'Setup global variables and settings' and fill the username and password (use the steps below).
 
 <img src="how to get password.png" />
