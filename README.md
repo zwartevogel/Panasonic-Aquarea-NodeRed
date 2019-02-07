@@ -28,8 +28,8 @@ Installation instructions:
   
 - Create the following switches:
   - On Off switch (switch heatpump on/off)
-  - Selector switch (to set the silent mode)
-  - Thermostat Setpoint (to set the heatpump setpoint)
+  - Selector switch (to set the silent mode: Off, silent 1, Silent 2, Silent 3)
+  - Thermostat Setpoint (to set the heatpump setpoint or temperature shift)
 
 In Node-red:
 - import the 'aquarea cloud.nodered' file 
